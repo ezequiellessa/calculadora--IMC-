@@ -1,0 +1,162 @@
+body{
+    background-color: #d491c4;
+    font:normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+    width:1250px;
+    height: 830px;
+    margin: auto;
+    box-shadow: 5pt 5pt 10pt rgba(0, 0, 0,0.432);
+}
+
+footer{
+
+    text-align: center;
+    font-size: italic;
+    float: left;
+    width: 100%;
+    height: 137px; /* only for demonstration, should be removed */
+    background: rgb(180, 160, 179);
+    padding: 20px;
+}
+
+div{
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.butao{
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 5pt 5pt 10pt rgb(155, 62, 155);
+}
+
+.butao1{
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 5pt 5pt 10pt rgba(224, 14, 14, 0.507);
+}
+
+
+.box{
+    border-radius: 20px;
+    padding: 18px;
+    width: 250px;
+    box-shadow: 5pt 5pt 10pt rgba(0, 0, 0,0.432);
+}
+
+/* Style the header */
+header {
+    background-color: rgb(155, 62, 155);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 30%;
+    height: 600px; /* only for demonstration, should be removed */
+    background: rgb(180, 160, 179);
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  */
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 600px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+ 
+  .img{
+      width:700px;
+  }
+  .result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    background-color: #333;
+    transform: skew(8deg);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

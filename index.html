@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <ul><br><br>
+        <li><a style="color: white;"><i class="arrow right"id="ceta1"></i>Home</a></li>
+        <li><a style="color: white;"><i class="arrow right"id="ceta1"></i>Home</a></li>
+    </ul>
+
+</head>
+<body><br>
+    <!--<header>-->
+    <!--<h1>Titulo</h1><br>-->
+    <!--</header>-->
+
+    <section>
+        <div>
+            <header>
+                <h2>IMC</h2>
+            </header>
+             
+                <nav>
+                    <label>Preencha seu nome</label><br><br>
+                    <input type="text" class="box btn btn-light" id= "nome" placeholder = "Ex: Matheus" required="required"><br><br>
+        
+                    <label>Preencha seu Peso</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "peso" placeholder = "Ex: 82kg" required="required"><br><br>
+        
+                    <label>Preencha sua Altura</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "altura"placeholder = "Ex: 1,83" required="required"><br><br><br>
+        
+                    <button type="button" class="butao btn-outline-primary" onclick="imc()"  id="verificar">Verificar</button>
+                    <!--<button type="button" class="butao1 btn-outline-danger" onClick="limpar()" id="limpar">Limpar</button>-->
+                </nav>
+
+            <article>
+                    <img src="imc.jfif" class="img"><br><br><br>
+
+                <footer>
+                    <p>Imagens Meramente Ilustrativas</p>
+                    <p style="color: black;">Atenção! O IMC deve ser interpretado somente por um profissional de saúde.</p>
+                    <p style="color: black;">&copy; Cotemig</p>
+                </footer>  
+
+            </article><br><br>
+
+                <div class="result" id='resultado'></div> 
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
